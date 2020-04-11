@@ -78,21 +78,21 @@ permalink: /
 	      </div>
 	      <div class="col-sm-6 col-md-3">
 		<div class="service-item">
-		  <i class="ion-compass"></i>
+		  <i class="ion-earth"></i>
 		  <h4>Exposure</h4>
 		  <p>Share your work and get exposed to new gigs around the world that are relevant to you</p>
 		</div>
 	      </div>
 	      <div class="col-sm-6 col-md-3">
 		<div class="service-item">
-		  <i class="ion-image"></i>
+		  <i class="ion-leaf"></i>
 		  <h4>Paid gigs</h4>
 		  <p>Prove your mettle to the brands looking to benefit from your work and get paid for your contribution</p>
 		</div>
 	      </div>
 	      <div class="col-sm-6 col-md-3">
 		<div class="service-item">
-		  <i class="ion-bug"></i>
+		  <i class="ion-compass"></i>
 		  <h4>Upskilling opportunities</h4>
 		  <p>Learn more by staying connected with the content creators community members </p>
 		</div>
@@ -102,28 +102,28 @@ permalink: /
 	      <h3> What's in it for brands? </h3>
 	      <div class="col-sm-6 col-md-3">
 		<div class="service-item">
-		  <i class="ion-headphone"></i>
+		  <i class="ion-planet"></i>
 		  <h4>Authentic content</h4>
 		  <p>Collaborate with passionate creators to get the best original content</p>
 		</div>
 	      </div>
 	      <div class="col-sm-6 col-md-3">
 		<div class="service-item">
-		  <i class="ion-leaf"></i>
+		  <i class="ion-headphone"></i>
 		  <h4>Access to diverse creators</h4>
 		  <p>Find creators for every target audience on every social platform</p>
 		</div>
 	      </div>
 	      <div class="col-sm-6 col-md-3">
 		<div class="service-item">
-		  <i class="ion-planet"></i>
+		  <i class="ion-leaf"></i>
 		  <h4>Save money</h4>
 		  <p>Get diverse creative assets at less than 50% the cost </p>
 		</div>
 	      </div>
 	      <div class="col-sm-6 col-md-3">
 		<div class="service-item">
-		  <i class="ion-earth"></i>
+		  <i class="ion-image"></i>
 		  <h4>Experiment with content</h4>
 		  <p> Try out different creators to select one that works best for you</p>
 		</div>
@@ -178,15 +178,17 @@ permalink: /
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
             {% for tm in site.data.testimonials %}
+            <a href="{{site-baseurl}}/blog">
+	    <b>Blogs</b>
             <div>
                <!-- <img src="img/cotation.png" alt="IMG"> -->
-		<b>Blogs</b><br/>
                 <p>{{ tm.testimonial }}</p>
                 <div class="user">
                  <!-- <img src="{{ tm.image }}" alt="Pepole"> -->
                   <p><span>{{ tm.title }}</span><b> {{ tm.name }} </b></p>
                 </div>
             </div>
+	    </a>
             {% endfor %}
           </div>
         </div>
