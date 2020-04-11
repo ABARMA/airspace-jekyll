@@ -18,7 +18,7 @@ title: Airspace
 subtitle: "A free HTML5 agency template"
 url: "http://thecontentcreators.in" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: '/home/'
+baseurl: ''
 cover: "/img/cover.png"
 logo: "/img/logo.png"
 
