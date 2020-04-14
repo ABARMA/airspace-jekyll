@@ -23,7 +23,7 @@ px      68    160    252    344    436    528    620    712    */
     text-align: center;
   }
   #wrapper .block img {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 50%;
   }
   /*--
@@ -73,10 +73,10 @@ px      68    160    252    344    436    528    620    712    */
 --*/
 
   #slider-work .block h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
   #slider-work .block p {
-    font-size: 15px;
+    font-size: 12px;
   }
   /*--
 	portfolio Start 

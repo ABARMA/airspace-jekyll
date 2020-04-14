@@ -52,7 +52,6 @@ a:active {
   margin-bottom: 70px;
 }
 .section-title h2 {
-  text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
 }
@@ -66,7 +65,7 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -74,6 +73,9 @@ header .navbar {
 }
 header .navbar-brand {
   padding-top: 5px;
+}
+header .navbar-brand img {
+  width: 280px;
 }
 header .navbar-default {
   background: none;
@@ -117,37 +119,71 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 #slider .block {
-  color: #E3E3E4;
+  color: #E3E3E4; 
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 45px;
-  line-height: 60px;
-  letter-spacing: 10px;
-  padding-bottom: 45px;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 5px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
 }
 #slider .block p {
-  font-size: 23px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  letter-spacing: 3px;
+  font-weight: 100;
+  letter-spacing: 3px; 
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify;
+}
+#slider .type {
+  float: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  
 }
 /*--
 	wrapper Start
 --*/
 #intro {
   padding: 100px 0;
+  /*background-color:#e4e7e8;*/
+  background: url("../img/joinus.jpg");
+  background-position: 90% 94px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
+
 }
 #intro .block h2 {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
+  font-size: 24px;
 }
 #intro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
+   padding-top: 20px;
 }
 #intro .block img {
   padding-left: 40px;
@@ -173,18 +209,54 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 60px;
   color: #4A4656;
 }
+#service .service-item img {
+  height: 60px;
+  width: 60px;
+}
+#service .row h2 {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: #267DDD;
 }
 #service .service-item p {
-  color: #888;
+  color: #666;
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
 }
+/* persona start */
+#persona {
+  text-align: center;
+}
+#persona .service-item { 
+  padding-bottom: 30px;
+}
+#persona .service-item img {
+  height: 60px;
+  width: 60px;
+}
+#persona .row h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+#persona .service-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #267DDD;
+}
+#persona .service-item p {
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 /*--
 	call-to-action Start
 --*/
@@ -227,12 +299,14 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #333333;
   margin-top: 30px;
 }
+
+
 /*--
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
-  background-position: 50% 94px;
+  background: url("../img/feature-bg.jpg");
+  background-position: 90% 94px;
   width: 100%;
   display: block;
   position: relative;
@@ -253,12 +327,11 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0;
 }
 #feature h2 {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
@@ -272,14 +345,13 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial {
   padding: 100px 0;
 }
-#testimonial .block h2 {
-  line-height: 27px;
-  color: #5C5C5C;
-  padding-top: 110px;
+#testimonial .section-title h2 {
+  line-height: 2px;
+  padding-left: 18px;
+  font-size: 24px;
 }
-#testimonial .block p {
+#testimonial .section-title p {
   padding-top: 50px;
-  color: #7B7B7B;
 }
 #testimonial .counter-box li {
   width: 50%;
