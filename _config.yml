@@ -14,8 +14,8 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
+title: TheContentCreators
+subtitle: "Online community for content creators"
 url: "http://thecontentcreators.in" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ''
@@ -36,3 +36,8 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# Plugings
+plugins:	
+  - jekyll-paginate
+  - jekyll-sitemap
