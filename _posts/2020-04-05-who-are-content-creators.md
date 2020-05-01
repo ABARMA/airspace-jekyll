@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Who are content creators?"
+description: "Understanding the role of content creators as the primary contributors of information across diverse channels"
 author: "AB"
+permalink: /:title/
 meta: "Springfield"
 ---
 

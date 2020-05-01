@@ -14,11 +14,12 @@ keep_files:
 
 
 # Site settings
-title: TheContentCreators
-subtitle: "Online community for content creators"
+title: The Content Creators Community
+description: "Building an online community for content creators where people can network, and learn new skills by receiving support and hearing different perspectives"
 url: "http://thecontentcreators.in" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ''
+permalink: /:title/
 cover: "/img/cover.png"
 logo: "/img/logo.png"
 
