@@ -1,10 +1,12 @@
-- name: -AB
+- link: who-are-content-creators/
+  name: -AB
   title: Who are content creators?
   testimonial: "With digital media having gained popularity, digital content creation ought to be an integral aspect of online strategy for brands. In addition, most social apps have high levels of engagement primarily because of the contribution"
-  image: img/item-img1.jpg
-#- name: Rose Ray sr.
-#  title: CEO-Themefisher
-# testimonial: "An e-commerce site was created by this company with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
+#  image: img/item-img1.jpg
+- link: benefits-of-community/
+  name: -AB
+  title: Benefits of a community
+  testimonial: "Why are communities important? A lot of us are in awe of the idea of bootstrapping and hustling our way to success. However, historical experiences of succesful creators demonstrate the importance of the roles played by their community of mentors, friends and family"
  # image: img/item-img1.jpg
 #- name: Rose Ray jr.
 #  title: CEO-Themefisher
